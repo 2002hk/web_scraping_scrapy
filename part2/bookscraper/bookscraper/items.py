@@ -11,7 +11,7 @@ class BookscraperItem(scrapy.Item):
     name = scrapy.Field()
 
     pass
-'''
+
 class BookItem(scrapy.Item):
     url=scrapy.Field()
     title=scrapy.Field()
@@ -23,4 +23,6 @@ class BookItem(scrapy.Item):
     stars=scrapy.Field()
     price=scrapy.Field()
     availablity=scrapy.Field()
-'''
+    description=scrapy.Field()
+    category=scrapy.Field()
+    #category
